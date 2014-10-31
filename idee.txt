@@ -1,12 +1,15 @@
-Tõmbab internetist konfigureeritavatest kohtadest retsepte.
-Parsib retsepte - tõlgib kõik retseptide koostisosad samasse keelde ja üritab aru saada vigastest retseptidest. Samuti on vaja arvestada et koostisosad on erinevates retseptides erinevalt kirjutatud - ehk siis kui toiduainet veel süsteemis pole üritab aru saada kas tegemist võib olla mõne juba eksisteeriva asja erineva kirjapildiga.
-Toiduainete kogused retseptides transleeritakse standartseteks. Näiteks kõik kuivained kaalu ja kõik vedelikud mahu järgi. Toiduainetel võiks olla lisaks ka kalkuleerimisinfo juhuks kui näiteks mõni inimene tahab ka kuivaineid kaalu järgi kasutada. 
-Internetilehtedelt võetavatel retseptidel on vaja aru saada, kust algavad ja lõppevad koostisosad. Retsepti valmistamiseks suunatakse inimene vastavale lehele. Antud rakendus on mõeldud ainult selleks et koostada menüü ja selle põhjal ostunimekiri.
-Kehakaalu ja pikkuse ja soo järgi arvutatakse keskmine kogus mida inimene võiks ühe toidukorra ajal süüa.
-Inimene saab valida mitu korda ta on nõus ühte toitu sööma. Programm arvestab seda ja võimalusel ei valita iga päeva igaks söögikorraks uut toitu, vaid suurendatakse koguseid vastavalt inimese poolt söödavale kogusele nii et ühte toitu saaks potentsiaalselt süüa mitu korda(eelmise päeva õhtusöök järgmine päev lõunaks kaasa).
-Igal toiduaine kohta on info. Kaua säilib, toiteväärtus, keetmise/praadimise aeg.
-Võimalus lisada põhimenüüle ka munchise valik, et toidukordade vahel midagi isetehtut näksida(või siis midagi poest ostetut, vastavalt inimese valikule)
-Inimene saab valida kohe toiduained, mida üldse retseptide koostisesse ei taha. Erinevatele retseptidele ja koostisosadele saab anda hinnanguid vastavalt millele neid siis edasi kasutatakse.
-Vaadates nädalamenüüd saab nupule vajutades mõne toidu ära vahetada kas mõne konkreetse toidu või rändomilt valitud uue toidu vastu. See info salvestatakse ja kui inimene korduvalt mõnda retsepti ei taha, soovitatakse seda potentsiaalselt harvemini. 
-Järgmise nädala menüü koostamisel arvestatakse milliseid koostisosasid eelmistest nädalateks peaks olema järgi jäänud. Kui inimene iga nädal sisestab info, mida ta täpsemalt valmistas ja kas osteti midagi menüüvälist või jäeti midagi ostmata ja mida tarbiti on võimalik hoida toiduainete kohta n.ö laoseisu.
-Potentsiaalselt integreeritav eelarve rakendusega. Ehk siis sisestades tšekke eelarve rakendusse saab selle laoseisu koostada selle põhjal.
+ï»¿TÃµmbab internetist konfigureeritavatest kohtadest retsepte.
+Parsib retsepte - tÃµlgib kÃµik retseptide koostisosad samasse keelde ja Ã¼ritab aru saada vigastest retseptidest. Samuti on vaja arvestada et koostisosad on erinevates retseptides erinevalt kirjutatud - ehk siis kui toiduainet veel sÃ¼steemis pole Ã¼ritab aru saada kas tegemist vÃµib olla mÃµne juba eksisteeriva asja erineva kirjapildiga.
+Toiduainete kogused retseptides transleeritakse standartseteks. NÃ¤iteks kÃµik kuivained kaalu ja kÃµik vedelikud mahu jÃ¤rgi. Toiduainetel vÃµiks olla lisaks ka kalkuleerimisinfo juhuks kui nÃ¤iteks mÃµni inimene tahab ka kuivaineid kaalu jÃ¤rgi kasutada. 
+Internetilehtedelt vÃµetavatel retseptidel on vaja aru saada, kust algavad ja lÃµppevad koostisosad. Retsepti valmistamiseks suunatakse inimene vastavale lehele. Antud rakendus on mÃµeldud ainult selleks et koostada menÃ¼Ã¼ ja selle pÃµhjal ostunimekiri.
+Kehakaalu ja pikkuse ja soo jÃ¤rgi arvutatakse keskmine kogus mida inimene vÃµiks Ã¼he toidukorra ajal sÃ¼Ã¼a.
+Inimene saab valida mitu korda ta on nÃµus Ã¼hte toitu sÃ¶Ã¶ma. Programm arvestab seda ja vÃµimalusel ei valita iga pÃ¤eva igaks sÃ¶Ã¶gikorraks uut toitu, vaid suurendatakse koguseid vastavalt inimese poolt sÃ¶Ã¶davale kogusele nii et Ã¼hte toitu saaks potentsiaalselt sÃ¼Ã¼a mitu korda(eelmise pÃ¤eva ÃµhtusÃ¶Ã¶k jÃ¤rgmine pÃ¤ev lÃµunaks kaasa).
+Igal toiduaine kohta on info. Kaua sÃ¤ilib, toitevÃ¤Ã¤rtus, keetmise/praadimise aeg.
+VÃµimalus lisada pÃµhimenÃ¼Ã¼le ka munchise valik, et toidukordade vahel midagi isetehtut nÃ¤ksida(vÃµi siis midagi poest ostetut, vastavalt inimese valikule)
+Inimene saab valida kohe toiduained, mida Ã¼ldse retseptide koostisesse ei taha. Erinevatele retseptidele ja koostisosadele saab anda hinnanguid vastavalt millele neid siis edasi kasutatakse.
+Vaadates nÃ¤dalamenÃ¼Ã¼d saab nupule vajutades mÃµne toidu Ã¤ra vahetada kas mÃµne konkreetse toidu vÃµi rÃ¤ndomilt valitud uue toidu vastu. See info salvestatakse ja kui inimene korduvalt mÃµnda retsepti ei taha, soovitatakse seda potentsiaalselt harvemini. 
+JÃ¤rgmise nÃ¤dala menÃ¼Ã¼ koostamisel arvestatakse milliseid koostisosasid eelmistest nÃ¤dalateks peaks olema jÃ¤rgi jÃ¤Ã¤nud. Kui inimene iga nÃ¤dal sisestab info, mida ta tÃ¤psemalt valmistas ja kas osteti midagi menÃ¼Ã¼vÃ¤list vÃµi jÃ¤eti midagi ostmata ja mida tarbiti on vÃµimalik hoida toiduainete kohta n.Ã¶ laoseisu.
+Hinnata saab ka seda millist toitu jÃ¤i nÃ¤iteks Ã¼le vÃµi millist toitu jÃ¤i vÃ¤heks mille pÃµhjal oskab programm vÃ¤lja arvestada reaalselt tarbitava toidu kogused.
+Sisestada vÃµiks saada ka planeeritavaid treeninguid, et oskaks arvestada millistel pÃ¤evadel on rohkem valku/energiat vaja.
+Ãœhe nÃ¤dalamenÃ¼Ã¼ga vÃµib seotud olla mitu kasutajat, igaÃ¼hel erinevad omadused ja sÃ¶Ã¶dava toidu kogused. Kogu menÃ¼Ã¼ koostamisel arvestada iga kasutaja eelistusi.
+Potentsiaalselt integreeritav eelarve rakendusega. Ehk siis sisestades tÅ¡ekke eelarve rakendusse saab selle laoseisu koostada selle pÃµhjal.
