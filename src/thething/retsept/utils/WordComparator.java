@@ -62,7 +62,7 @@ public class WordComparator {
 			int diff  = bChars.indexOf(aChar);
 			
 			System.out.println("aChars: " + aChars + " bChars: " + bChars);
-			System.out.println("Character in string a: " + aChar + " Index in string a: " + ai + " Index in string b: " +diff);
+			System.out.println("Character in string a: " + aChar + " Index in string a: " + 0 + " Index in string b: " +diff);
 			
 			//if character in string a exists also in string b give 0.5 points
 			if(diff != -1){
@@ -70,9 +70,6 @@ public class WordComparator {
 				System.out.println("Character: " + aChar + " also exists in b + 0.5 points");
 				totalPoints += 0.5;
 				
-			}else{
-				aChars.remove();
-				totalPoints -= 0.25;
 			}
 			
 			//if character in string a exists in same position in string b give 0.5 points
@@ -87,7 +84,7 @@ public class WordComparator {
 			}
 			
 			//else if character in string a exists in b but on the next position
-			else if(diff == 1){
+			else if(diff == 1 || diff == -1){
 				
 				//If the next  char in a is at the current index in b, characters might be switched.
 				if(aChars.get(1) == bChars.get(0)){
@@ -109,11 +106,12 @@ public class WordComparator {
 					//next chars after that are the same
 					if(aChars.get(1) == bChars.get(2)){
 						totalPoints += 0.25;
+						bChars.remove();
 					}
 					
 					aChars.remove();
 					bChars.remove();
-					bChars.remove();
+					
 					
 				}
 				
@@ -127,8 +125,14 @@ public class WordComparator {
 					aChars.remove();
 					bChars.remove();
 					
+				}else{
+					aChars.remove();
+					bChars.remove();
 				}
 				
+			}else{
+				aChars.remove();
+				bChars.remove();
 			}
 			
 			System.out.println("New totalpoints: " + totalPoints);

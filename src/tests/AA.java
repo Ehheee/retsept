@@ -6,7 +6,7 @@ public class AA {
 
 	public static void main(String[] args) {
 		WordComparator wc = new WordComparator();
-		wc.compareWords3("porgand", "poorgand");
+		wc.compareWords3("piim", "riis");
 	}
 
 }
