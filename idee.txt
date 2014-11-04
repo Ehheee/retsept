@@ -13,3 +13,45 @@ Hinnata saab ka seda millist toitu jäi näiteks üle või millist toitu jäi v�
 Sisestada võiks saada ka planeeritavaid treeninguid, et oskaks arvestada millistel päevadel on rohkem valku/energiat vaja.
 Ühe nädalamenüüga võib seotud olla mitu kasutajat, igaühel erinevad omadused ja söödava toidu kogused. Kogu menüü koostamisel arvestada iga kasutaja eelistusi.
 Potentsiaalselt integreeritav eelarve rakendusega. Ehk siis sisestades tšekke eelarve rakendusse saab selle laoseisu koostada selle põhjal.
+test
+
+
+
+Sõnade võrdlemine:
+Käia läbi kõik string a tähed. Iga tähe kohta vaadata kas selline täht eksisteerib stringis b ja millisel positsioonil ta eksisteerib. Kui täht eksisteerib samal positsioonil stringis b annab see x punkti. Kui täht eksisteerib, aga asub 1 tähe võrra kaugemal annab see x - 1 punkti; kui eksisteerib 2 tähe kaugusel annab see x-2 punkti jne.
+
+
+
+piim riis
+
+0 +3 +3 +0=6
+6/4 = 1.5
+
+piim piim
+
+3 +3 +3 +3=12
+12/4 = 3
+
+
+porgand prgand
+index 0 matchib index 0-ga 		3 punkti
+index 1 ei oma vastet 			0 punkti
+index 2 omab vastet indexil 1-ga2 punkti
+nihuta prgndi indexit ühe +1
+
+
+
+
+
+
+
+
+
+
+porgand poorgand
+index 0 matchib index 0-ga 		3 punkti
+index 1 matchib index 1-ga		3 punkti
+index 2 matchib index 3-ga		2 punkti
+nihutda poorgandi indexit -1
+
+
